@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Valentine Invitation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="milkyway" aria-hidden="true"></div>
+    <main class="invite">
+      <header class="hero">
+        <div class="header-image">
+          <img src="header.png" alt="Couple riding a bicycle together" />
+        </div>
+        <span class="badge">A Valentine Invitation</span>
+        <h1>Be My Valentine, <span class="accent">Momo</span></h1>
+        <p class="subtitle">
+          An evening made just for us — a little surprise, a lot of love, and a
+          night to remember.
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="#details">Open The Details</a>
+          <a
+            class="btn ghost"
+            href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Valentine%27s%20Date%20with%20Momo&dates=20260214T190000/20260214T210000&details=An%20evening%20made%20just%20for%20us.&location=You%20will%20decide"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Save The Date
+          </a>
+        </div>
+      </header>
+
+      <section id="details" class="details">
+        <article class="card">
+          <h2>When</h2>
+          <p>February 14 · 7:00 PM</p>
+          <p class="muted">We will head out at 6:30 PM.</p>
+        </article>
+        <article class="card">
+          <h2>Where</h2>
+          <p>You will decide</p>
+        </article>
+        <article class="card">
+          <h2>Dress</h2>
+          <p>Elegant and cozy</p>
+          <p class="muted">Your favorite color looks perfect.</p>
+        </article>
+      </section>
+
+      <section id="rsvp" class="rsvp">
+        <div>
+          <h2>RSVP</h2>
+          <p>Just smile, say yes, and I will take care of the rest.</p>
+        </div>
+        <div class="cta">
+          <button id="yes-btn" class="btn primary" type="button">YES</button>
+          <button id="no-btn" class="btn ghost" type="button">NO</button>
+        </div>
+        <p id="response" class="response" aria-live="polite"></p>
+      </section>
+
+      <footer class="footer">
+        <p>With all my love,</p>
+        <p class="signature">ABHAY</p>
+      </footer>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
